@@ -1,5 +1,5 @@
 html {
-    background: url() no-repeat center center fixed; 
+    background: url(http://wallpaperlepi.com/wp-content/uploads/2014/08/Simple-Cute-Vector-Wallpaper.jpg) no-repeat center center fixed; 
     background-size: cover;
 
 }
@@ -8,31 +8,67 @@ h1{
 }
 #dog{
     position:fixed;
-    margin-top: 230;
+    margin-top: 238;
+    border: 8px solid black;
 }
 #bunny{
     position:fixed;
-    margin-left: 325;
-    margin-top: 225;
-    width:200;
-    border: 5px solid black;
+    margin-left: 335;
+    margin-top: 230;
+    width:250;
+    border: 8px solid black;
 }
 #panda{
-    border: 8px solid white;
-    width: 300
+    border: 8px solid black;
+    width: 300;
+    position: fixed
 }
 #piano{
     border: 8px solid black;
     position:fixed;
-    margin-left: 5;
+    margin-left: 330;
 }
 #guitar{
+    position: fixed;
     width:300;
-    margin-left: 290;
+    margin-left: 620;
     margin-bottom: 4;
-    border: 8px solid white;
+    border: 8px solid black;
 }
 #sushi{
-    border: 8px solid white;
-    margin-left: 550;
+    position:fixed;
+    border: 8px solid black;
+    margin-left: 630;
+    margin-top: 230;
+}
+#snapchat{
+    position:fixed;
+    width:180;
+    margin-left:950;
+    margin-top: -2;
+}
+#facebook{
+    position:fixed;
+    width: 190;
+    margin-left: 945;
+    margin-top: 180;
+}
+#google{
+    position:fixed;
+    margin-left: 950;
+    margin-top: 370;
+    width: 190;
+}
+#youtube{
+    position: fixed;
+    width:180;
+    margin-left:955;
+    margin-top: 565;
+}
+#db{
+    position: fixed;
+    width: 300;
+    border: 8px solid black;
+    margin-left: 335;
+    margin-top: 460
 }
