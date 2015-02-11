@@ -1,0 +1,38 @@
+html {
+    background: url() no-repeat center center fixed; 
+    background-size: cover;
+
+}
+h1{
+    text-align: center;
+}
+#dog{
+    position:fixed;
+    margin-top: 230;
+}
+#bunny{
+    position:fixed;
+    margin-left: 325;
+    margin-top: 225;
+    width:200;
+    border: 5px solid black;
+}
+#panda{
+    border: 8px solid white;
+    width: 300
+}
+#piano{
+    border: 8px solid black;
+    position:fixed;
+    margin-left: 5;
+}
+#guitar{
+    width:300;
+    margin-left: 290;
+    margin-bottom: 4;
+    border: 8px solid white;
+}
+#sushi{
+    border: 8px solid white;
+    margin-left: 550;
+}
