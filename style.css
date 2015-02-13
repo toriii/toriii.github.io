@@ -77,6 +77,15 @@ h1{
 }
 #sparkle{
     position: absolute;
-    
+    width: 65;
+    margin-top: -505;
+     -webkit-animation: myfirst 5s; /* Chrome, Safari, Opera */
+    animation: myfirst 5s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    from {left: 10px;}
+    to {left: 1000px;}
 }
         
