@@ -1,7 +1,6 @@
 html {
     background: url(http://wallpaperlepi.com/wp-content/uploads/2014/08/Simple-Cute-Vector-Wallpaper.jpg) no-repeat center center fixed; 
     background-size: cover;
-
 }
 h1{
     text-align: center;
@@ -42,50 +41,81 @@ h1{
     position: absolute;
     margin-top: 250
 }
-#puppy{
-    margin-left: 670;
-    margin-top: 230;
-    border: 8px solid black;
-}
+
 #facebook{
     width: 200;
     margin-left: 947;
-    margin-top: -250;
+    margin-top: -20;
 }
 #panda{
     border: 8px solid black;
+    margin-top: 80;
     position: absolute;
-    margin-top: 12
+    
     }
 #google{
     width: 180;
     position: absolute;
     margin-left: 958;
-    margin-top: -55;
+    margin-top: -10;
 }
 #youtube{
     width: 170;
     position: absolute;
     margin-left:965;
-    margin-top: 130;
+    margin-top: 170;
 }
 #instagram{
     width:200;
     position: absolute;
     margin-left:948;
-    margin-top: 290
+    margin-top: 330
 }
 #sparkle{
-    position: absolute;
-    width: 65;
-    margin-top: -505;
-     -webkit-animation: myfirst 5s; /* Chrome, Safari, Opera */
-    animation: myfirst 5s;
+    position: relative;
+    width: 65px;
+    margin-top: -435px;
+    margin-left: 680;
+    -webkit-animation: myfirst 5s;  /* Chrome, Safari, Opera */
+    animation: myfirst 5s; 
 }
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes myfirst {
-    from {left: 10px;}
-    to {left: 1000px;}
+    0% {left: -700px;}
+    100% {left: 0px;}
+    
 }
-        
+#butterfly{
+    position: absolute;
+    width: 70px;
+    margin-top: -435;
+    margin-left: -350;
+    -webkit-animation: myanimation 5s; /* Chrome, Safari, Opera */
+    animation: myanimation 5s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myanimation {
+    0% {right: 0}
+    100% {right: 680}
+}
+#fallingleaves{
+    position: absolute;
+    width: 65;
+    margin-left: -100;
+    margin-top: -500;
+    -webkit-animation: fallingleaves 5s infinite linear;
+    -moz-animation: fallingleaves 5s infinite linear;
+}
+@-webkit-keyframes fallingleaves {
+    0% {opacity: 1; 
+        -webkit-transform: translate(0, 0px) rotateZ(0deg)}
+    50% {opacity: 1;
+        -webkit-transform: translate(100px,600px) rotateZ(180deg)
+    }
+    100% {opacity: 1;
+        -webkit-transform: translate(200px, 1000px) rotateZ(360deg)
+    }
+}
+

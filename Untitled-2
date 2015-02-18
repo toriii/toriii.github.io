@@ -1,0 +1,135 @@
+
+
+ <img id="piano" src="http://moreintelligentlife.com/sites/default/files/legacy/Piano.jpg">
+        
+        <img id="bunny" src="http://t1.gstatic.com/images?q=tbn:ANd9GcQ8zu0mzux3Qc3cUi_rV-AomftiAxMJCxs1XR7Q7itUGWqb_Xy7:www.jubed.com/youthgames/images/bunnies.jpg"  >     
+      <img id="sushi" src="http://t3.gstatic.com/images?q=tbn:ANd9GcSV07wqoxrjwLTAP9iaBeUfyYXIPq1VbYpD9IY-G-Mfpj7Od_PC:www.shadyslimo.com/wp-content/uploads/2013/06/Kazu-Sushi-Bar-Japanese-Restaurant-Norwalk-12.jpg">
+        <img id="snapchat" src="http://img2.wikia.nocookie.net/__cb20130520232151/logopedia/images/8/8f/210px-Snapchat_logo.png">
+        <a href="https://www.facebook.com">
+        <img id="facebook" src="http://icons.iconarchive.com/icons/yootheme/social-bookmark/512/social-facebook-box-blue-icon.png">
+         </a>
+        <a href="https://google.com">
+        <img id="google" src="http://upload.wikimedia.org/wikipedia/commons/8/87/Google_Chrome_icon_(2011).png">
+        </a>
+        <a href="http://gnss.sa.utoronto.ca/files/2013/02/youtube.png">
+        <img id="youtube" src="http://gnss.sa.utoronto.ca/files/2013/02/youtube.png">
+        </a>
+        <img id="db" src="https://scontent-a-sea.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/10403628_713433295414157_4983998317146635355_n.jpg?oh=f26052155db8d8d07ffc586563b163ab&oe=5553F63A">
+        <img id="instagram" src="http://kateoneillphotography.com/files/2013/04/instagram_256.png">
+         <img id="panda" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQEOpj886wDOK2PFFPo45o8iIR-6MMbitdU2jfQMuU0Ta65E6Sl" >
+        
+    </body>
+</html>
+
+html {
+    background: url(http://wallpaperlepi.com/wp-content/uploads/2014/08/Simple-Cute-Vector-Wallpaper.jpg) no-repeat center center fixed; 
+    background-size: cover;
+
+}
+h1{
+    text-align: center;
+}
+#bunny{
+    margin-left: 380;
+    margin-top: 230;
+    width:250;
+    border: 8px solid black;
+    position: absolute; 
+}
+
+#piano{
+    border: 8px solid black;
+    position:absolute;
+    width: 300;
+}
+#guitar{
+    width:300;
+    margin-left: 330;
+    position: absolute;
+    border: 8px solid black;
+}
+#sushi{
+    border: 8px solid black;
+    margin-left: 660;
+    position: absolute;
+}
+#snapchat{
+    width:180;
+    margin-left:960;
+    position: absolute;
+}
+
+#db{
+    width: 350;
+    border: 8px solid black;
+    position: absolute;
+    margin-top: 250
+}
+
+#facebook{
+    width: 200;
+    margin-left: 947;
+    margin-top: -20;
+}
+#panda{
+    border: 8px solid black;
+    margin-top: 80;
+    position: absolute;
+    
+    }
+#google{
+    width: 180;
+    position: absolute;
+    margin-left: 958;
+    margin-top: -10;
+}
+#youtube{
+    width: 170;
+    position: absolute;
+    margin-left:965;
+    margin-top: 170;
+}
+#instagram{
+    width:200;
+    position: absolute;
+    margin-left:948;
+    margin-top: 330
+}
+#sparkle{
+    position: relative;
+    width: 65px;
+    margin-top: -435px;
+     -webkit-animation: myfirst 5s infinite;  /* Chrome, Safari, Opera */
+    animation: myfirst 5s infinite; 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    from {left: 10px;}
+    to {left: 1100px;}
+}
+        
+        #sparkle{
+    position: relative;
+    width: 65px;
+    margin-top: -435px;
+     -webkit-animation: myfirst 5s infinite;  /* Chrome, Safari, Opera */
+    animation: myfirst 5s infinite; 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    0% {left: 10px;}
+    50% {left: 1100px;}
+    100% {left: 10px}
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    0% {background: yellow;}
+    25% {background: green;}
+    50% {background: blue;}
+    75% {background: purple;}
+    100% {background: yellow;}
+    
+    http://premiumcoding.com/css3-tricks-falling-leaves-css/
