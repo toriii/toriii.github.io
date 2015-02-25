@@ -17,21 +17,22 @@ h1{
     border: 8px solid black;
     position:absolute;
     width: 300;
+    margin-left: 100
 }
 #guitar{
     width:300;
-    margin-left: 330;
+    margin-left: 430;
     position: absolute;
     border: 8px solid black;
 }
 #sushi{
     border: 8px solid black;
-    margin-left: 660;
+    margin-left: 760;
     position: absolute;
 }
 #snapchat{
     width:180;
-    margin-left:960;
+    margin-left:1060;
     position: absolute;
 }
 
@@ -44,8 +45,8 @@ h1{
 
 #facebook{
     width: 200;
-    margin-left: 947;
-    margin-top: -20;
+    margin-left: 690;
+    margin-top: 200;
 }
 #panda{
     border: 8px solid black;
@@ -74,8 +75,8 @@ h1{
 #sparkle{
     position: relative;
     width: 65px;
-    margin-top: -435px;
-    margin-left: 680;
+    margin-top: -465px;
+    margin-left: 830;
     -webkit-animation: myfirst 5s;  /* Chrome, Safari, Opera */
     animation: myfirst 5s; 
 }
@@ -89,7 +90,7 @@ h1{
 #butterfly{
     position: absolute;
     width: 70px;
-    margin-top: -435;
+    margin-top: -465;
     margin-left: -350;
     -webkit-animation: myanimation 5s; /* Chrome, Safari, Opera */
     animation: myanimation 5s;
