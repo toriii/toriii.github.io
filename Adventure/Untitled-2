@@ -68,8 +68,8 @@ h1{
 
 #facebook{
     width: 200;
-    margin-left: 947;
-    margin-top: -20;
+    margin-left: ;
+    margin-top: ;
 }
 #panda{
     border: 8px solid black;
